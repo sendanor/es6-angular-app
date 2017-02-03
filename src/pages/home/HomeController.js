@@ -1,4 +1,5 @@
 export default class HomeController {
+
 	constructor () {
 		'ngInject';
 		this.name = 'World';
@@ -7,4 +8,5 @@ export default class HomeController {
 	changeName () {
 		this.name = 'angular-tips';
 	}
+
 }
